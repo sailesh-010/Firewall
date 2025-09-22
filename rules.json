@@ -1,0 +1,20 @@
+{
+    "rule_type": "DENY_LIST",
+    "rules": [
+        {
+            "protocol": "TCP",
+            "port": 80,
+            "action": "ACCEPT"
+        },
+        {
+            "protocol": "UDP",
+            "port": 53,
+            "action": "ACCEPT"
+        },
+        {
+            "protocol": "TCP",
+            "port": 22,
+            "action": "DROP"
+        }
+    ]
+}
